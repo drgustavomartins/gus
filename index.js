@@ -2,7 +2,7 @@
 const express = require("express");
 const axios = require("axios");
 const helmet = require("helmet");
-const rateLimit = require("express-rate-limit");
+const rateLimit = require("express-rate-limit"); 
 const cors = require("cors");
 
 const app = express();
